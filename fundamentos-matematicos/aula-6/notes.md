@@ -69,3 +69,35 @@ $$
 $$
 
 Isso significa que existem 24 combinações diferentes possíveis ao escolher uma camisa, uma calça e um par de sapatos.
+
+## Combinação Simples
+
+A combinação simples é uma forma de selecionar um subconjunto não ordenado de elementos de um conjunto maior. Diferentemente do arranjo simples, a combinação não leva em consideração a ordem dos elementos selecionados, uma vez que a mesma não afeta o resultado final.
+
+A fórmula para calcular o número de combinações simples de \(n\) elementos tomados \(k\) a \(k\) (onde \(n\) é o tamanho do conjunto e \(k\) é o número de elementos selecionados) é dada por:
+
+$$
+C(n, k) = \frac{{n!}}{{k! \cdot (n-k)!}}
+$$
+
+Por exemplo, se tivermos um conjunto com 6 elementos e quisermos selecionar 4 elementos em qualquer ordem, o número de combinações simples será:
+
+$$
+C(6, 4) = \frac{{6!}}{{4! \cdot (6-4)!}} = \frac{{6!}}{{4! \cdot 2!}} = \frac{{6 \times 5}}{{2 \times 1}} = 15
+$$
+
+Isso significa que existem 15 combinações diferentes possíveis ao selecionar 4 elementos distintos, independentemente da ordem em que eles são escolhidos.
+
+## Princípio Aditivo
+
+O princípio aditivo é uma regra que descreve a contagem de maneiras de realizar uma tarefa quando ela pode ser feita de diferentes maneiras exclusivas ou mutuamente exclusivas. Ele afirma que o número total de maneiras de realizar a tarefa é a soma dos números de opções em cada cenário exclusivo.
+
+Por exemplo, se você pode realizar uma tarefa de duas maneiras diferentes (cenário A e cenário B), e o número de maneiras de realizar a tarefa em cada cenário é \(n\) e \(m\), respectivamente, então o número total de maneiras de realizar a tarefa usando o princípio aditivo é \(n + m\).
+
+Por exemplo, suponha que você queira escolher um caminho para ir de casa até o trabalho. Você pode escolher entre duas rotas diferentes: a rota A e a rota B. Se houver 3 opções de transporte público disponíveis na rota A e 4 opções disponíveis na rota B, o número total de maneiras de ir para o trabalho usando o princípio aditivo é:
+
+$$
+3 + 4 = 7
+$$
+
+Isso significa que existem 7 maneiras diferentes de ir para o trabalho, considerando as opções disponíveis em cada rota.
